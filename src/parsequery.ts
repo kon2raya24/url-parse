@@ -1,6 +1,10 @@
 
 // Type exports for consumers
 // Add specific types as needed
+/**
+ * parseQuery
+ * @param query
+ */
 export function parseQuery(query: string): Record<string, string> {
   const cleaned = query.replace(/^\?/, "");
   if (!cleaned) return {};
