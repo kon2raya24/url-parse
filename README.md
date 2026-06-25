@@ -20,3 +20,11 @@ npm install url-parse
 ## License
 
 MIT
+
+
+## Usage
+
+```typescript
+import { } from 'url-parse';
+// See API section for available functions
+```
