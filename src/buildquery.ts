@@ -1,3 +1,8 @@
+/**
+ * buildQuery
+ * @param params
+ * @param string | number | boolean>
+ */
 export function buildQuery(params: Record<string, string | number | boolean>): string {
   return Object.entries(params)
     .filter(([, v]) => v !== undefined && v !== null)
