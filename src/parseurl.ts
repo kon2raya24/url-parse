@@ -1,3 +1,7 @@
+/**
+ * parseUrl
+ * @param url
+ */
 export function parseUrl(url: string): { protocol: string; host: string; pathname: string; search: Record<string, string>; hash: string } {
   try {
     const parsed = new URL(url);
